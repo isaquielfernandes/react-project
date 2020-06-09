@@ -1,4 +1,4 @@
-impor React, { Component } from "react";
+import React, { Component } from "react";
 
 export default class CartItem extends Component {
 
