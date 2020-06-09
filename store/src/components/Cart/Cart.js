@@ -6,7 +6,7 @@ import CartTotals from "./CartTotals";
 import { ProductConsumer } from "../../context";
 import EmptyCart from "./EmptyCart";
 
-export default class Store extends Component {
+export default class Cart extends Component {
   render() {
     return (
       <section>
