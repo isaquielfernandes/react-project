@@ -13,6 +13,7 @@ class ProductProvider extends Component {
         cartTax: 0,
         cartTotal: 0
     };
+    
     componentDidMount() {
         this.setProducts();
     }
