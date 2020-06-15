@@ -11,7 +11,7 @@ const config = {
 };
 firebase.initializeApp(config);
  
-export default class SignInScreen extends React.Component {
+export default class SignIn extends React.Component {
  
   // The component's Local state.
   state = {
