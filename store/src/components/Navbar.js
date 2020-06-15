@@ -16,18 +16,17 @@ export default class Navbar extends Component {
                         <Link to="/" className="nav-link">Products</Link>
                     </li>
                 </ul>
-                <Link to="/signin" className="ml-1">
-                    <ButtonContainer>
-                        <span >
-                            <i class="fa fa-sign-in" aria-hidden="true"></i>
-                            SignIn
-                        </span>
-                    </ButtonContainer>
-                </Link>
                 <Link to="/cart" className="ml-auto">
                     <ButtonContainer>
                         <span >
                             <i className="fa fa-shopping-cart"/>
+                        </span>
+                    </ButtonContainer>
+                </Link>
+                 <Link to="/signin" className="ml-1">
+                    <ButtonContainer>
+                        <span >
+                            <i class="fa fa-user-circle-o mr-1" aria-hidden="true"></i>
                         </span>
                     </ButtonContainer>
                 </Link>
