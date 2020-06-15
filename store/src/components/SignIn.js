@@ -52,7 +52,7 @@ export default class SignIn extends React.Component {
         <div className="container mt-5 d-flex align-items-center">
            <div className="row">
                 <div className="col-md-6 offset-md-3">
-                    <div className="card p-3">
+                    <div className="card p-2">
                         <h1 className="text-center">Store</h1>
                         <p className=" text-center">Please sign-in:</p>
                         <StyledFirebaseAuth uiConfig={this.uiConfig} firebaseAuth={firebase.auth()}/>
@@ -63,10 +63,12 @@ export default class SignIn extends React.Component {
       );
     }
     return (
-      <div>
+      <div className "container">
         <h1>Store</h1>
         <p>Welcome {firebase.auth().currentUser.displayName}! You are now signed-in!</p>
-        <a onClick={() => firebase.auth().signOut()}>Sign-out</a>
+        <a className="btn btn-secondary" onClick={() => firebase.auth().signOut()}>
+        <i class="fa fa-sign-out" aria-hidden="true"></i>Sign-out
+        </a>
       </div>
     );
   }
