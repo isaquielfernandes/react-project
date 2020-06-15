@@ -48,7 +48,7 @@ export default class SignIn extends React.Component {
   render() {
     if (!this.state.isSignedIn) {
       return (
-        <div className="container ">
+        <div className="container my-auto">
            <div className="row">
                 <div className="col-md-6 offset-md-3">
                     <div className="card">
