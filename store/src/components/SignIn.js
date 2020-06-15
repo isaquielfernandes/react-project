@@ -48,16 +48,22 @@ export default class SignIn extends React.Component {
   render() {
     if (!this.state.isSignedIn) {
       return (
-        <div>
-          <h1>My App</h1>
-          <p>Please sign-in:</p>
-          <StyledFirebaseAuth uiConfig={this.uiConfig} firebaseAuth={firebase.auth()}/>
+        <div className="container ">
+           <div className="row">
+                <div className="col-md-6 offset-md-3">
+                    <div className="card">
+                        <h1 className="text-center">Store</h1>
+                        <p className=" text-center">Please sign-in:</p>
+                        <StyledFirebaseAuth uiConfig={this.uiConfig} firebaseAuth={firebase.auth()}/>
+                    </div>
+                </div>
+           </div>
         </div>
       );
     }
     return (
       <div>
-        <h1>My App</h1>
+        <h1>Store</h1>
         <p>Welcome {firebase.auth().currentUser.displayName}! You are now signed-in!</p>
         <a onClick={() => firebase.auth().signOut()}>Sign-out</a>
       </div>
