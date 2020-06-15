@@ -54,7 +54,7 @@ export default class SignIn extends React.Component {
                 <div className="col-md-6 offset-md-3">
                     <div className="card p-2">
                         <h1 className="text-center">Store</h1>
-                        <p className=" text-center">Please sign-in:</p>
+                        <p className=" text-center">Please sign-in:<i class="fa fa-sign-in ml-1" aria-hidden="true"></i></p>
                         <StyledFirebaseAuth uiConfig={this.uiConfig} firebaseAuth={firebase.auth()}/>
                     </div>
                 </div>
