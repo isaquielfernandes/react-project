@@ -5,8 +5,8 @@ import firebase from 'firebase';
  
 // Configure Firebase.
 const config = {
-  apiKey: process.env.APP_KEY,
-  authDomain: process.env.DOMAIN,
+  apiKey: 'AIzaSyBlgOzvwtY-nb-0sDeMoG2KnqdykhLxlcA',
+  authDomain: 'store-ecommerce.firebaseapp.com',
   // ...
 };
 firebase.initializeApp(config);
