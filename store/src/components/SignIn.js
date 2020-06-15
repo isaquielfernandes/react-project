@@ -5,8 +5,8 @@ import firebase from 'firebase';
  
 // Configure Firebase.
 const config = {
-  apiKey: 'AIzaSyBlgOzvwtY-nb-0sDeMoG2KnqdykhLxlcA',
-  authDomain: 'https://store-iota.now.sh',
+  apiKey: process.env.APP_KEY,
+  authDomain: process.env.DOMAIN,
   // ...
 };
 firebase.initializeApp(config);
