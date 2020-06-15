@@ -36,6 +36,7 @@ export default class CartTotals extends Component {
                   total={cartTotal}
                   clearCart={clearCart}
                   history={history}
+                  className="btn btn-block"
                 />
               </div>
             </div>
