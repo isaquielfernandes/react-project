@@ -48,7 +48,7 @@ export default class SignIn extends React.Component {
   render() {
     if (!this.state.isSignedIn) {
       return (
-        <div className="container mt-5">
+        <div className="container mt-5 d-flex align-items-center">
            <div className="row">
                 <div className="col-md-6 offset-md-3">
                     <div className="card">
