@@ -5,8 +5,8 @@ import firebase from 'firebase';
  
 // Configure Firebase.
 const config = {
-  apiKey: 'AIzaSyBlgOzvwtY-nb-0sDeMoG2KnqdykhLxlcA',
-  authDomain: 'store-ecommerce.firebaseapp.com',
+  apiKey: process.env.API_KEY,
+  authDomain: process.env.AUTH_DOMAIN,
   // ...
 };
 firebase.initializeApp(config);
@@ -48,7 +48,7 @@ export default class SignIn extends React.Component {
   render() {
     if (!this.state.isSignedIn) {
       return (
-        <div className="container my-auto">
+        <div className="container mt-5">
            <div className="row">
                 <div className="col-md-6 offset-md-3">
                     <div className="card">
