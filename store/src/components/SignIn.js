@@ -66,7 +66,7 @@ export default class SignIn extends React.Component {
       <div className="container my-4 p-5">
         <div className="row">
           <h1>Store</h1>
-          <p>Welcome {firebase.auth().currentUser.displayName}! You are now signed-in!</p>
+          <p>Welcome {firebase.auth().currentUser.displayName}!</p>
           <a className="btn btn-primary" onClick={() => firebase.auth().signOut()}>
             <i class="fa fa-sign-out" aria-hidden="true"></i>Sign-out
           </a>
