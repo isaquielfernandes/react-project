@@ -26,7 +26,7 @@ export default class Navbar extends Component {
                  <Link to="/signin" className="ml-1">
                     <ButtonContainer>
                         <span >
-                            <i class="fa fa-user-circle-o mr-1" aria-hidden="true"></i>
+                            <i class="fa fa-user-circle-o" aria-hidden="true"></i>
                         </span>
                     </ButtonContainer>
                 </Link>
