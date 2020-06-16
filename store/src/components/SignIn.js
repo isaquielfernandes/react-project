@@ -1,4 +1,3 @@
-// Import FirebaseAuth and firebase.
 import React from 'react';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 import firebase from 'firebase';
@@ -20,9 +19,7 @@ export default class SignIn extends React.Component {
  
   // Configure FirebaseUI.
   uiConfig = {
-    // Popup signin flow rather than redirect flow.
     signInFlow: 'popup',
-    // We will display Google and Facebook as auth providers.
     signInOptions: [
       firebase.auth.GoogleAuthProvider.PROVIDER_ID,
       firebase.auth.FacebookAuthProvider.PROVIDER_ID,
@@ -49,7 +46,7 @@ export default class SignIn extends React.Component {
   render() {
     if (!this.state.isSignedIn) {
       return (
-        <div className="container mt-5 d-flex align-items-center">
+        <div className="container mt-5">
            <div className="row">
                 <div className="col-md-6 offset-md-3">
                     <div className="card p-2">
