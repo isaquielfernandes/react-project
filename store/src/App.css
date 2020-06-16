@@ -7,6 +7,10 @@
   --mainYellow: #ffa400;
 }
 
+html {
+  overflow: hidden;
+}
+
 body {
   font-family: "Oswald", sans-serif !important;
   background: var(--mainWhite) !important;
