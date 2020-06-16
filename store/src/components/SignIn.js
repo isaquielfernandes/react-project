@@ -1,12 +1,13 @@
 import React from 'react';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
-import firebase from 'firebase/app';
+import firebase from 'firebase';
  
 // Configure Firebase.
 const config = {
   apiKey: process.env.REACT_APP_API_KEY,
   authDomain: process.env.REACT_APP_AUTH_DOMAIN,
 };
+
 firebase.initializeApp(config);
  
 export default class SignIn extends React.Component {
