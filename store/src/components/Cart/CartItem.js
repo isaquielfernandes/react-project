@@ -12,7 +12,7 @@ export default class CartItem extends Component {
         <div className="col-10 mx-auto col-lg-2">
           <img
             src={img}
-            style={{ width: "5rem", heigth: "5rem" }}
+            style={{ width: "4rem", heigth: "4rem" }}
             className="img-fluid"
             alt=""
           />
