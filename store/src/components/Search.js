@@ -3,7 +3,7 @@ import React, {Component} from "react";
 export default class Search extends Component {
     render() {
        return (
-             <form className="row"> 
+             <form className="container"> 
                  <div className="form-group">
                      <input className="form-control" type="search" placeholder="Search" aria-label="Search"/>
                  </div>
