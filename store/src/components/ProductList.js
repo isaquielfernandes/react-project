@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Product from "./Product";
 import Title from "./Title";
+import Search from "./Search";
 import { storeProducts } from "../data";
 import styled from "styled-components";
 import { ProductConsumer } from "../context";
@@ -16,6 +17,9 @@ export default class ProductList extends Component {
                 <ProductWrapper className="py-5">
                     <div className="container">
                         <Title name="our" title="products" />
+                        <div ClassName="row">
+                            <Search/>
+                        </div>
                         <div className="row">
                         <ProductConsumer>
                             {value => {
