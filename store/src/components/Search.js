@@ -5,10 +5,10 @@ export default class Search extends Component {
        return (
              <form className="container"> 
                  <div className="row">
-                     <div className="form-group col-8">
+                     <div className="form-group p-0 col-8">
                          <input className="form-control" type="search" placeholder="Search" aria-label="Search"/>
                      </div>
-                     <div className="form-group ml-0 col-4">
+                     <div className="form-group ml-0 p-0 col-4">
                          <button className="btn btn-block btn-outline-success my-sm-0" type="submit">Search</button>
                      </div>
                  </div>
