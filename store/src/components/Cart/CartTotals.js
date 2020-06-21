@@ -15,12 +15,13 @@ export default class CartTotals extends Component {
           <div className="container">
             <div className="row">
               <div className="col-10 mt-2 ml-sm-4 ml-md-auto mb-5 col-sm-8 text-capitalize text-right">
-                <hr/>
+                
                 <Link to="/">
                   <button className="btn btn-outline-danger text-uppercase mb-3 px-5" type="button" onClick={() => { clearCart(); }} >
                     clear cart
                   </button>
                 </Link>
+                <hr/>
                 <h5>
                   <span className="text-title"> subtotal :</span>{" "}
                   <strong>$ {cartSubTotal} </strong>
