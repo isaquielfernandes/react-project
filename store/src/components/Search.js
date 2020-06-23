@@ -5,7 +5,7 @@ export default class Search extends Component {
        return (
             <form className="container"> 
                 <div className="form-row">
-                    <div class="col-md-9">
+                    <div class="">
                         <div class="col-md-8 mb-3">
                             <input className="form-control" type="search" placeholder="Search" aria-label="Search"/>
                         </div>
