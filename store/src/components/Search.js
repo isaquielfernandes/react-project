@@ -8,7 +8,7 @@ export default class Search extends Component {
                     <div className="col-md-4 my-3">
                         <input className="form-control" type="search" placeholder="Search" aria-label="Search"/>
                     </div>
-                    <div className="col-md-3 mb-3">
+                    <div className="col-md-3 my-3">
                         <button className="btn btn-outline-success my-sm-0" type="submit">
                             <i className="fas fa-search"></i>
                         </button> 
