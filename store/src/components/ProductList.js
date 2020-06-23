@@ -19,13 +19,13 @@ export default class ProductList extends Component {
                         <Title name="our" title="products" />
                         <Search/>
                         <div className="row">
-                        <ProductConsumer>
-                            {value => {
-                            return value.products.map(product => {
-                                return <Product key={product.id} product={product} />;
-                            });
-                            }}
-                        </ProductConsumer>
+                            <ProductConsumer>
+                                {value => {
+                                return value.products.map(product => {
+                                    return <Product key={product.id} product={product} />;
+                                });
+                                }}
+                            </ProductConsumer>
                         </div>
                     </div>
                 </ProductWrapper>
