@@ -13,8 +13,8 @@ export default class Search extends Component {
                             <i className="fas fa-search"></i>
                         </button> 
                     </div>
-                    <hr/>
                 </div>
+                <hr/>
             </form>
        )
     }
