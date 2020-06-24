@@ -5,10 +5,10 @@ class Footer extends Component {
         return (
             <div className="p-3 mt-3 bg-secondary text-white">
                 <hr/>
-                <div>
+                <div className="py-2">
                     
                 </div>
-                <div>
+                <div className="py-2">
                     
                 </div>
             </div>
