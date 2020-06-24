@@ -35,6 +35,10 @@ body {
   justify-content: flex-start !important;
 }
 
+.footer {
+  bottom: 0;
+}
+
 .btn-black {
   background: transparent;
   text-transform: capitalize;

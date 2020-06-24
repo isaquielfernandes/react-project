@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Footer extends Component {
     render() {
         return (
-            <div className="p-3 mt-3 bg-secondary text-white">
+            <footer className="footer mt-auto py-3 bg-secondary text-white">
                 <hr/>
                 <div className="py-2">
                     <h3></h3>
@@ -16,7 +16,7 @@ class Footer extends Component {
                     <a></a>
                     <a></a>
                 </div>
-            </div>
+            </footer>
         );
     }
 }
