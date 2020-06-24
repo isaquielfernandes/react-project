@@ -6,7 +6,6 @@ import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 import Modal from "./components/Modal";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 import { Route, Switch } from "react-router-dom";
 import Details from "./components/Detalis";
 import Default from "./components/Default";
@@ -28,7 +27,6 @@ class App extends Component {
           <Route component={Default}/>
         </Switch>
         <Modal/>
-        <Footer/>
       </React.Fragment>
     );
   }

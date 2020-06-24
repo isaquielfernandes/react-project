@@ -5,6 +5,7 @@ import Search from "./Search";
 import { storeProducts } from "../data";
 import styled from "styled-components";
 import { ProductConsumer } from "../context";
+import Footer from "./Footer";
 
 export default class ProductList extends Component {
     state = {
@@ -29,6 +30,7 @@ export default class ProductList extends Component {
                         </div>
                     </div>
                 </ProductWrapper>
+                <Footer/>
             </React.Fragment>
         );
     }
