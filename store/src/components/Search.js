@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
-export default class Search extends Component {
-    render() {
+Const Search = () => {
        return (
             <form className="mt-2"> 
                 <div className="form-row my-3 mx-auto">
@@ -24,3 +23,5 @@ export default class Search extends Component {
        )
     }
 }
+
+export default Search;
