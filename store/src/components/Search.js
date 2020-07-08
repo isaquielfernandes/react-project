@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-Const Search = () => {
+const Search = () => {
        return (
             <form className="mt-2"> 
                 <div className="form-row my-3 mx-auto">
@@ -10,7 +10,7 @@ Const Search = () => {
                           <input className="form-control" type="search" placeholder="Search" aria-label="Search"/>
                           <div className="input-group-prepend">
                               <div className="input-group-text">
-                                 <button className="btn btn-outline-success" type="submit">
+                                 <button type="submit">
                                     <i className="fas fa-search"></i>
                                  </button>
                               </div>
@@ -21,7 +21,6 @@ Const Search = () => {
                 <hr/>
             </form>
        )
-    }
 }
 
 export default Search;
