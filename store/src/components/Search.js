@@ -22,7 +22,7 @@ const Search = ({ getQuery }) => {
                              aria-label="Search"
                              value={text}
                              onChange={(e) => onChange(e.target.value)}
-                             autoFocus
+                             
                           />
                           <div className="input-group-prepend">
                               <div className="input-group-text">
