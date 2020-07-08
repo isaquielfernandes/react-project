@@ -10,9 +10,7 @@ const Search = () => {
                           <input className="form-control" type="search" placeholder="Search" aria-label="Search"/>
                           <div className="input-group-prepend">
                               <div className="input-group-text">
-                                 <button type="submit">
                                     <i className="fas fa-search"></i>
-                                 </button>
                               </div>
                           </div>
                         </div>
